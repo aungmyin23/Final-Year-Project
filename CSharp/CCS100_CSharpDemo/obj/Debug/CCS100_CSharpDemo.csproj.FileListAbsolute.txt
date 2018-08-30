@@ -1,0 +1,10 @@
+C:\Program Files (x86)\IVI Foundation\VISA\WinNT\TLCCS\Examples\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.csprojAssemblyReference.cache
+C:\Program Files (x86)\IVI Foundation\VISA\WinNT\TLCCS\Examples\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.Form1.resources
+C:\Program Files (x86)\IVI Foundation\VISA\WinNT\TLCCS\Examples\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.Properties.Resources.resources
+C:\Program Files (x86)\IVI Foundation\VISA\WinNT\TLCCS\Examples\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.csproj.GenerateResource.cache
+C:\Program Files (x86)\IVI Foundation\VISA\WinNT\TLCCS\Examples\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.csproj.CoreCompileInputs.cache
+C:\Users\AungMyin\Desktop\School\FYP\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.csprojAssemblyReference.cache
+C:\Users\AungMyin\Desktop\School\FYP\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.Form1.resources
+C:\Users\AungMyin\Desktop\School\FYP\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.Properties.Resources.resources
+C:\Users\AungMyin\Desktop\School\FYP\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.csproj.GenerateResource.cache
+C:\Users\AungMyin\Desktop\School\FYP\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.csproj.CoreCompileInputs.cache

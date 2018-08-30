@@ -1,0 +1,13 @@
+C:\Users\AungMyin\Desktop\School\FYP\CSharp\CCS100_CSharpDemo\bin\x86\Release\CCS100_CSharpDemo.exe.config
+C:\Users\AungMyin\Desktop\School\FYP\CSharp\CCS100_CSharpDemo\bin\x86\Release\CCS100_CSharpDemo.exe
+C:\Users\AungMyin\Desktop\School\FYP\CSharp\CCS100_CSharpDemo\bin\x86\Release\CCS100_CSharpDemo.pdb
+C:\Users\AungMyin\Desktop\School\FYP\CSharp\CCS100_CSharpDemo\bin\x86\Release\Thorlabs.ccs.interop.dll
+C:\Users\AungMyin\Desktop\School\FYP\CSharp\CCS100_CSharpDemo\bin\x86\Release\Thorlabs.ccs.interop.xml
+C:\Users\AungMyin\Desktop\School\FYP\CSharp\CCS100_CSharpDemo\obj\x86\Release\CCS100_CSharpDemo.csprojAssemblyReference.cache
+C:\Users\AungMyin\Desktop\School\FYP\CSharp\CCS100_CSharpDemo\obj\x86\Release\CCS100_CSharpDemo.Form1.resources
+C:\Users\AungMyin\Desktop\School\FYP\CSharp\CCS100_CSharpDemo\obj\x86\Release\CCS100_CSharpDemo.Properties.Resources.resources
+C:\Users\AungMyin\Desktop\School\FYP\CSharp\CCS100_CSharpDemo\obj\x86\Release\CCS100_CSharpDemo.csproj.GenerateResource.cache
+C:\Users\AungMyin\Desktop\School\FYP\CSharp\CCS100_CSharpDemo\obj\x86\Release\CCS100_CSharpDemo.csproj.CoreCompileInputs.cache
+C:\Users\AungMyin\Desktop\School\FYP\CSharp\CCS100_CSharpDemo\obj\x86\Release\CCS100_CSharpDemo.csproj.CopyComplete
+C:\Users\AungMyin\Desktop\School\FYP\CSharp\CCS100_CSharpDemo\obj\x86\Release\CCS100_CSharpDemo.exe
+C:\Users\AungMyin\Desktop\School\FYP\CSharp\CCS100_CSharpDemo\obj\x86\Release\CCS100_CSharpDemo.pdb
