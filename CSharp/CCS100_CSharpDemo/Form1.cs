@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 
-using Thorlabs.ccs.interop64;
+using Thorlabs.CCS_Series;
 
 namespace CCS100_CSharpDemo
 {
@@ -45,21 +45,23 @@ namespace CCS100_CSharpDemo
             string resourceName = "USB0::0x1313::" + instrumentNumber + "::M" + textBox_SerialNumber.Text.ToString() +"::RAW";
 
             // initialize device with the resource name (be sure the device is still connected)
-            ccsSeries = new TLCCS(resourceName, false, false);
+            ccsSeries = new TLCCS(resourceName, true, true);
 
             int status;
             int res = ccsSeries.getDeviceStatus(out status);
 
             // set the integration time
-            res = ccsSeries.setIntegrationTime((double)numericUpDown_IntegrationTime.Value);
+            //res = 
+            ccsSeries.setIntegrationTime((double)numericUpDown_IntegrationTime.Value);
 
             // start the scan
-            res = ccsSeries.startScan();
+            //res = 
+            ccsSeries.startScan();
 
             if (res == 0)
             {
                 // color the button green
-                button_StartScan.BackColor = System.Drawing.Color.LightGreen;
+                button_StartScan.BackColor = System.Drawing.Color.Brown;
                 button_StartScan.Enabled = false;
             }
 
@@ -73,7 +75,8 @@ namespace CCS100_CSharpDemo
             if ((status & 0x0010) > 0)
             {
                 double[] data = new double[3648];
-                res = ccsSeries.getScanData(data);
+                //res = 
+                ccsSeries.getScanData(data);
             }
 
         }

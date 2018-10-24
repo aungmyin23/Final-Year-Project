@@ -3,8 +3,24 @@ C:\Program Files (x86)\IVI Foundation\VISA\WinNT\TLCCS\Examples\CSharp\CCS100_CS
 C:\Program Files (x86)\IVI Foundation\VISA\WinNT\TLCCS\Examples\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.Properties.Resources.resources
 C:\Program Files (x86)\IVI Foundation\VISA\WinNT\TLCCS\Examples\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.csproj.GenerateResource.cache
 C:\Program Files (x86)\IVI Foundation\VISA\WinNT\TLCCS\Examples\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.csproj.CoreCompileInputs.cache
-C:\Users\AungMyin\Desktop\School\FYP\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.csprojAssemblyReference.cache
-C:\Users\AungMyin\Desktop\School\FYP\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.Form1.resources
-C:\Users\AungMyin\Desktop\School\FYP\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.Properties.Resources.resources
-C:\Users\AungMyin\Desktop\School\FYP\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.csproj.GenerateResource.cache
-C:\Users\AungMyin\Desktop\School\FYP\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\IVI Foundation\VISA\WinNT\TLCCS\Examples\CSharp\CCS100_CSharpDemo\bin\Debug\CCS100_CSharpDemo.exe.config
+C:\Program Files (x86)\IVI Foundation\VISA\WinNT\TLCCS\Examples\CSharp\CCS100_CSharpDemo\bin\Debug\CCS100_CSharpDemo.exe
+C:\Program Files (x86)\IVI Foundation\VISA\WinNT\TLCCS\Examples\CSharp\CCS100_CSharpDemo\bin\Debug\CCS100_CSharpDemo.pdb
+C:\Program Files (x86)\IVI Foundation\VISA\WinNT\TLCCS\Examples\CSharp\CCS100_CSharpDemo\bin\Debug\Thorlabs.ccs.interop.dll
+C:\Program Files (x86)\IVI Foundation\VISA\WinNT\TLCCS\Examples\CSharp\CCS100_CSharpDemo\bin\Debug\Thorlabs.ccs.interop.xml
+C:\Program Files (x86)\IVI Foundation\VISA\WinNT\TLCCS\Examples\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.csproj.CopyComplete
+C:\Program Files (x86)\IVI Foundation\VISA\WinNT\TLCCS\Examples\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.exe
+C:\Program Files (x86)\IVI Foundation\VISA\WinNT\TLCCS\Examples\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.pdb
+C:\Users\AungMyin\Desktop\School\FYP\Final-Year-Project\CSharp\CCS100_CSharpDemo\bin\Debug\CCS100_CSharpDemo.exe.config
+C:\Users\AungMyin\Desktop\School\FYP\Final-Year-Project\CSharp\CCS100_CSharpDemo\bin\Debug\CCS100_CSharpDemo.exe
+C:\Users\AungMyin\Desktop\School\FYP\Final-Year-Project\CSharp\CCS100_CSharpDemo\bin\Debug\CCS100_CSharpDemo.pdb
+C:\Users\AungMyin\Desktop\School\FYP\Final-Year-Project\CSharp\CCS100_CSharpDemo\bin\Debug\Thorlabs.ccs.interop.dll
+C:\Users\AungMyin\Desktop\School\FYP\Final-Year-Project\CSharp\CCS100_CSharpDemo\bin\Debug\Thorlabs.ccs.interop.xml
+C:\Users\AungMyin\Desktop\School\FYP\Final-Year-Project\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.csprojAssemblyReference.cache
+C:\Users\AungMyin\Desktop\School\FYP\Final-Year-Project\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.Form1.resources
+C:\Users\AungMyin\Desktop\School\FYP\Final-Year-Project\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.Properties.Resources.resources
+C:\Users\AungMyin\Desktop\School\FYP\Final-Year-Project\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.csproj.GenerateResource.cache
+C:\Users\AungMyin\Desktop\School\FYP\Final-Year-Project\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.csproj.CoreCompileInputs.cache
+C:\Users\AungMyin\Desktop\School\FYP\Final-Year-Project\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.csproj.CopyComplete
+C:\Users\AungMyin\Desktop\School\FYP\Final-Year-Project\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.exe
+C:\Users\AungMyin\Desktop\School\FYP\Final-Year-Project\CSharp\CCS100_CSharpDemo\obj\Debug\CCS100_CSharpDemo.pdb
