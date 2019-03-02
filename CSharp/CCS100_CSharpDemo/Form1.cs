@@ -16,7 +16,8 @@ namespace CCS100_CSharpDemo
             InitializeComponent();
         }
 
-        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        private void Form1_FormClosing(object sender, 
+            EventArgs e)
         {
             // release the device
             if(ccsSeries != null)

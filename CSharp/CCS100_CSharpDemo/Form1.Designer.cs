@@ -51,10 +51,10 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.textBox_SerialNumber);
             this.groupBox1.Location = new System.Drawing.Point(16, 15);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox1.Size = new System.Drawing.Size(632, 81);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Size = new System.Drawing.Size(631, 81);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Instrument Informations";
@@ -93,7 +93,7 @@
             // textBox_SerialNumber
             // 
             this.textBox_SerialNumber.Location = new System.Drawing.Point(321, 39);
-            this.textBox_SerialNumber.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox_SerialNumber.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_SerialNumber.Name = "textBox_SerialNumber";
             this.textBox_SerialNumber.Size = new System.Drawing.Size(132, 22);
             this.textBox_SerialNumber.TabIndex = 1;
@@ -113,7 +113,7 @@
             // 
             this.numericUpDown_IntegrationTime.DecimalPlaces = 1;
             this.numericUpDown_IntegrationTime.Location = new System.Drawing.Point(127, 23);
-            this.numericUpDown_IntegrationTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDown_IntegrationTime.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDown_IntegrationTime.Name = "numericUpDown_IntegrationTime";
             this.numericUpDown_IntegrationTime.Size = new System.Drawing.Size(133, 22);
             this.numericUpDown_IntegrationTime.TabIndex = 3;
@@ -128,9 +128,9 @@
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.numericUpDown_IntegrationTime);
             this.groupBox2.Location = new System.Drawing.Point(16, 103);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(279, 62);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
@@ -139,7 +139,7 @@
             // button_StartScan
             // 
             this.button_StartScan.Location = new System.Drawing.Point(16, 172);
-            this.button_StartScan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_StartScan.Margin = new System.Windows.Forms.Padding(4);
             this.button_StartScan.Name = "button_StartScan";
             this.button_StartScan.Size = new System.Drawing.Size(279, 28);
             this.button_StartScan.TabIndex = 5;
@@ -150,9 +150,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(16, 208);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1241, 287);
+            this.pictureBox1.Size = new System.Drawing.Size(631, 287);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
@@ -160,12 +160,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1270, 510);
+            this.ClientSize = new System.Drawing.Size(661, 510);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button_StartScan);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "CSS CSharpDemo";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
