@@ -1,0 +1,10 @@
+C:\Users\AungMyin\source\repos\ConsoleApp1\ConsoleApp1\bin\Release\ConsoleApp1.exe.config
+C:\Users\AungMyin\source\repos\ConsoleApp1\ConsoleApp1\bin\Release\ConsoleApp1.exe
+C:\Users\AungMyin\source\repos\ConsoleApp1\ConsoleApp1\bin\Release\ConsoleApp1.pdb
+C:\Users\AungMyin\source\repos\ConsoleApp1\ConsoleApp1\bin\Release\Thorlabs.ccs.interop.dll
+C:\Users\AungMyin\source\repos\ConsoleApp1\ConsoleApp1\bin\Release\Thorlabs.ccs.interop.xml
+C:\Users\AungMyin\source\repos\ConsoleApp1\ConsoleApp1\obj\Release\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\AungMyin\source\repos\ConsoleApp1\ConsoleApp1\obj\Release\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\AungMyin\source\repos\ConsoleApp1\ConsoleApp1\obj\Release\ConsoleApp1.csproj.CopyComplete
+C:\Users\AungMyin\source\repos\ConsoleApp1\ConsoleApp1\obj\Release\ConsoleApp1.exe
+C:\Users\AungMyin\source\repos\ConsoleApp1\ConsoleApp1\obj\Release\ConsoleApp1.pdb
