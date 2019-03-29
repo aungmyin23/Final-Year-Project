@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{13EABD02-DEE2-4B75-A6EC-85196944ADC9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CCS_DesktopApp</RootNamespace>
+    <AssemblyName>CCS DesktopApp</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\AungMyin\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>AA0ECCBFE8990C64521E4224D07C3D361CB5EB7E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>CCS DesktopApp_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Thorlabs.ccs.interop, Version=2.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Microsoft.NET\Primary Interop Assemblies\Thorlabs.ccs.interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Thorlabs.TSI.ColorInterfaces">
+      <HintPath>..\..\..\..\Desktop\Scientific_Camera_Interfaces_2019_02\Scientific Camera Interfaces\SDK\DotNet Toolkit\dlls\Managed_64_lib\Thorlabs.TSI.ColorInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Thorlabs.TSI.ColorProcessor">
+      <HintPath>..\..\..\..\Desktop\Scientific_Camera_Interfaces_2019_02\Scientific Camera Interfaces\SDK\DotNet Toolkit\dlls\Managed_64_lib\Thorlabs.TSI.ColorProcessor.dll</HintPath>
+    </Reference>
+    <Reference Include="Thorlabs.TSI.Core">
+      <HintPath>..\..\..\..\Desktop\Scientific_Camera_Interfaces_2019_02\Scientific Camera Interfaces\SDK\DotNet Toolkit\dlls\Managed_64_lib\Thorlabs.TSI.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Thorlabs.TSI.CoreInterfaces">
+      <HintPath>..\..\..\..\Desktop\Scientific_Camera_Interfaces_2019_02\Scientific Camera Interfaces\SDK\DotNet Toolkit\dlls\Managed_64_lib\Thorlabs.TSI.CoreInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Thorlabs.TSI.Demosaicker">
+      <HintPath>..\..\..\..\Desktop\Scientific_Camera_Interfaces_2019_02\Scientific Camera Interfaces\SDK\DotNet Toolkit\dlls\Managed_64_lib\Thorlabs.TSI.Demosaicker.dll</HintPath>
+    </Reference>
+    <Reference Include="Thorlabs.TSI.ImageData">
+      <HintPath>..\..\..\..\Desktop\Scientific_Camera_Interfaces_2019_02\Scientific Camera Interfaces\SDK\DotNet Toolkit\dlls\Managed_64_lib\Thorlabs.TSI.ImageData.dll</HintPath>
+    </Reference>
+    <Reference Include="Thorlabs.TSI.ImageDataInterfaces">
+      <HintPath>..\..\..\..\Desktop\Scientific_Camera_Interfaces_2019_02\Scientific Camera Interfaces\SDK\DotNet Toolkit\dlls\Managed_64_lib\Thorlabs.TSI.ImageDataInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Thorlabs.TSI.TLCamera">
+      <HintPath>..\..\..\..\Desktop\Scientific_Camera_Interfaces_2019_02\Scientific Camera Interfaces\SDK\DotNet Toolkit\dlls\Managed_64_lib\Thorlabs.TSI.TLCamera.dll</HintPath>
+    </Reference>
+    <Reference Include="Thorlabs.TSI.TLCameraInterfaces">
+      <HintPath>..\..\..\..\Desktop\Scientific_Camera_Interfaces_2019_02\Scientific Camera Interfaces\SDK\DotNet Toolkit\dlls\Managed_64_lib\Thorlabs.TSI.TLCameraInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="thorlabs_tsi_camera_sdk1_cli">
+      <HintPath>..\..\..\..\Desktop\Scientific_Camera_Interfaces_2019_02\Scientific Camera Interfaces\SDK\DotNet Toolkit\dlls\Managed_64_lib\thorlabs_tsi_camera_sdk1_cli.dll</HintPath>
+    </Reference>
+    <Reference Include="thorlabs_tsi_core_cli">
+      <HintPath>..\..\..\..\Desktop\Scientific_Camera_Interfaces_2019_02\Scientific Camera Interfaces\SDK\DotNet Toolkit\dlls\Managed_64_lib\thorlabs_tsi_core_cli.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnalysisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnalysisForm.Designer.cs">
+      <DependentUpon>AnalysisForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayRangeform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisplayRangeform.Designer.cs">
+      <DependentUpon>DisplayRangeform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RangeSettingform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RangeSettingform.Designer.cs">
+      <DependentUpon>RangeSettingform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SaveFileform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveFileform.Designer.cs">
+      <DependentUpon>SaveFileform.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AnalysisForm.resx">
+      <DependentUpon>AnalysisForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisplayRangeForm.resx">
+      <DependentUpon>DisplayRangeform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RangeSettingform.resx">
+      <DependentUpon>RangeSettingform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveFileform.resx">
+      <DependentUpon>SaveFileform.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="CCS DesktopApp_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nus logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nus logo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

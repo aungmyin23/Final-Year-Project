@@ -1,0 +1,32 @@
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\Debug\CCS DesktopApp.exe.config
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\Debug\CCS DesktopApp.exe.manifest
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\Debug\CCS DesktopApp.application
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\Debug\CCS DesktopApp.exe
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\Debug\CCS DesktopApp.pdb
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\Debug\Thorlabs.ccs.interop.dll
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\Debug\Thorlabs.ccs.interop.xml
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\Debug\CCS DesktopApp.csprojAssemblyReference.cache
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\Debug\CCS_DesktopApp.Form1.resources
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\Debug\CCS_DesktopApp.Properties.Resources.resources
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\Debug\CCS_DesktopApp.SaveFileform.resources
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\Debug\CCS DesktopApp.csproj.GenerateResource.cache
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\Debug\CCS DesktopApp.csproj.CoreCompileInputs.cache
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\Debug\CCS DesktopApp.exe.manifest
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\Debug\CCS DesktopApp.application
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\Debug\CCS DesktopApp.csproj.CopyComplete
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\Debug\CCS DesktopApp.exe
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\Debug\CCS DesktopApp.pdb
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\Debug\CCS_DesktopApp.DisplayRangeform.resources
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\Debug\Thorlabs.TSI.ColorInterfaces.dll
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\Debug\Thorlabs.TSI.ColorProcessor.dll
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\Debug\Thorlabs.TSI.Core.dll
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\Debug\Thorlabs.TSI.CoreInterfaces.dll
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\Debug\Thorlabs.TSI.Demosaicker.dll
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\Debug\Thorlabs.TSI.ImageData.dll
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\Debug\Thorlabs.TSI.ImageDataInterfaces.dll
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\Debug\Thorlabs.TSI.TLCamera.dll
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\Debug\Thorlabs.TSI.TLCameraInterfaces.dll
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\Debug\thorlabs_tsi_camera_sdk1_cli.dll
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\Debug\thorlabs_tsi_core_cli.dll
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\Debug\CCS_DesktopApp.RangeSettingform.resources
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\Debug\CCS_DesktopApp.AnalysisForm.resources
