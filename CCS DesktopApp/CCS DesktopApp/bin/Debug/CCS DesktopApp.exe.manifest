@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CCS DesktopApp.exe" size="415664">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CCS DesktopApp.exe" size="418224">
       <assemblyIdentity name="CCS DesktopApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>AI34bc63vZ9IXVKUvouy08vZKbUe428WJ9pw6YEagZI=</dsig:DigestValue>
+        <dsig:DigestValue>7Tobp1aoKFEKJskE+2jLMZcF84rW6CWp49vRAydKGhg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

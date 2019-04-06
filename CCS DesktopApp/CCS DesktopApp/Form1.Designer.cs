@@ -63,6 +63,17 @@ namespace CCS_DesktopApp
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.logo = new System.Windows.Forms.PictureBox();
             this.axisText = new System.Windows.Forms.Label();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.result_5 = new System.Windows.Forms.TextBox();
+            this.result_4 = new System.Windows.Forms.TextBox();
+            this.result_3 = new System.Windows.Forms.TextBox();
+            this.result_2 = new System.Windows.Forms.TextBox();
+            this.result_1 = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -71,13 +82,14 @@ namespace CCS_DesktopApp
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.scanChart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
+            this.groupBox5.SuspendLayout();
             this.SuspendLayout();
             // 
             // linkLabel1
             // 
             this.linkLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(886, 627);
+            this.linkLabel1.Location = new System.Drawing.Point(1309, 627);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(204, 17);
             this.linkLabel1.TabIndex = 0;
@@ -104,7 +116,7 @@ namespace CCS_DesktopApp
             this.editToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1102, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1525, 28);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -359,7 +371,7 @@ namespace CCS_DesktopApp
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.scanChart.Series.Add(series1);
-            this.scanChart.Size = new System.Drawing.Size(1069, 391);
+            this.scanChart.Size = new System.Drawing.Size(1492, 391);
             this.scanChart.TabIndex = 17;
             this.scanChart.Text = "scanChart";
             // 
@@ -390,7 +402,7 @@ namespace CCS_DesktopApp
             // 
             this.logo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.logo.Image = global::CCS_DesktopApp.Properties.Resources.nus_logo1;
-            this.logo.Location = new System.Drawing.Point(970, 31);
+            this.logo.Location = new System.Drawing.Point(1393, 31);
             this.logo.Margin = new System.Windows.Forms.Padding(2);
             this.logo.Name = "logo";
             this.logo.Size = new System.Drawing.Size(120, 72);
@@ -403,16 +415,126 @@ namespace CCS_DesktopApp
             this.axisText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.axisText.AutoSize = true;
             this.axisText.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.axisText.Location = new System.Drawing.Point(940, 205);
+            this.axisText.Location = new System.Drawing.Point(1363, 205);
             this.axisText.Name = "axisText";
             this.axisText.Size = new System.Drawing.Size(0, 29);
             this.axisText.TabIndex = 19;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.label7);
+            this.groupBox5.Controls.Add(this.label6);
+            this.groupBox5.Controls.Add(this.label5);
+            this.groupBox5.Controls.Add(this.label4);
+            this.groupBox5.Controls.Add(this.label1);
+            this.groupBox5.Controls.Add(this.result_5);
+            this.groupBox5.Controls.Add(this.result_4);
+            this.groupBox5.Controls.Add(this.result_3);
+            this.groupBox5.Controls.Add(this.result_2);
+            this.groupBox5.Controls.Add(this.result_1);
+            this.groupBox5.Location = new System.Drawing.Point(824, 34);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(374, 160);
+            this.groupBox5.TabIndex = 20;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Analysis Results";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(209, 67);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(48, 18);
+            this.label7.TabIndex = 9;
+            this.label7.Text = "Item 5";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(7, 134);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(48, 18);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "Item 4";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(5, 98);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(48, 18);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Item 3";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(7, 67);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(48, 18);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Item 2";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(5, 31);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(48, 18);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Item 1";
+            // 
+            // result_5
+            // 
+            this.result_5.Location = new System.Drawing.Point(268, 64);
+            this.result_5.Name = "result_5";
+            this.result_5.ReadOnly = true;
+            this.result_5.Size = new System.Drawing.Size(100, 22);
+            this.result_5.TabIndex = 4;
+            // 
+            // result_4
+            // 
+            this.result_4.Location = new System.Drawing.Point(88, 129);
+            this.result_4.Name = "result_4";
+            this.result_4.ReadOnly = true;
+            this.result_4.Size = new System.Drawing.Size(100, 22);
+            this.result_4.TabIndex = 3;
+            // 
+            // result_3
+            // 
+            this.result_3.Location = new System.Drawing.Point(88, 98);
+            this.result_3.Name = "result_3";
+            this.result_3.ReadOnly = true;
+            this.result_3.Size = new System.Drawing.Size(100, 22);
+            this.result_3.TabIndex = 2;
+            // 
+            // result_2
+            // 
+            this.result_2.Location = new System.Drawing.Point(88, 64);
+            this.result_2.Name = "result_2";
+            this.result_2.ReadOnly = true;
+            this.result_2.Size = new System.Drawing.Size(100, 22);
+            this.result_2.TabIndex = 1;
+            // 
+            // result_1
+            // 
+            this.result_1.Location = new System.Drawing.Point(88, 30);
+            this.result_1.Name = "result_1";
+            this.result_1.ReadOnly = true;
+            this.result_1.Size = new System.Drawing.Size(100, 22);
+            this.result_1.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1102, 653);
+            this.ClientSize = new System.Drawing.Size(1525, 653);
+            this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.axisText);
             this.Controls.Add(this.statusText);
             this.Controls.Add(this.scanChart);
@@ -442,6 +564,8 @@ namespace CCS_DesktopApp
             this.groupBox4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.scanChart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -481,6 +605,17 @@ namespace CCS_DesktopApp
         private System.Windows.Forms.ToolStripMenuItem settingToolStripMenuItem;
         private System.Windows.Forms.Button analysis_button;
         private System.Windows.Forms.ToolStripMenuItem resetToolStripMenuItem;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox result_5;
+        private System.Windows.Forms.TextBox result_4;
+        private System.Windows.Forms.TextBox result_3;
+        private System.Windows.Forms.TextBox result_1;
+        private System.Windows.Forms.TextBox result_2;
     }
 }
 

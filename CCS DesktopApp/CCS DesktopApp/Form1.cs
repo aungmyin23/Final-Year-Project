@@ -28,6 +28,7 @@ namespace CCS_DesktopApp
         double[] data = new double[3648];
         double[] wavelengthData = new double[3648];
         double[] ramanValue = new double[3648];
+        double[] analysisResults = new double[5];
         double min_Wave = 0.00, max_Wave = 0.00;
         DataTable dt = new DataTable();
 
@@ -80,26 +81,6 @@ namespace CCS_DesktopApp
             }
             finally { }
 
-            /*databasePath = path + @"\Database\";
-
-            try
-            {
-                // Determine whether the directory exists.
-                if (Directory.Exists(databasePath))
-                {
-                    Console.WriteLine("That path exists already.");
-                    return;
-                }
-
-                // Try to create the directory.
-                System.IO.Directory.CreateDirectory(databasePath);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("The process failed: {0}", e.ToString());
-            }
-            finally { }*/
-            //}
         }
 
         // Set up the BackgroundWorker object by 
@@ -163,6 +144,7 @@ namespace CCS_DesktopApp
                     MessageBox.Show("Please enter the correct information!");
                     return;
             }
+
             string resourceName = "USB0::0x1313::" + instrumentNumber + "::M" + serialNumber + "::RAW";
 
             // initialize device with the resource name (be sure the device is still connected)
@@ -426,8 +408,16 @@ namespace CCS_DesktopApp
                         if (Math.Abs(pos.X - pointXPixel) < 2 &&
                             Math.Abs(pos.Y - pointYPixel) < 2)
                         {
-                            tooltip.Show("Wavelength=" + prop.XValue + ", Intensity=" + prop.YValues[0], this.scanChart,
+                            if (ramanGraph)
+                            {
+                                tooltip.Show("Raman=" + prop.XValue + ", Intensity=" + prop.YValues[0], this.scanChart,
+                                           pos.X, pos.Y - 15);
+                            }
+                            else
+                            {
+                                tooltip.Show("Wavelength=" + prop.XValue + ", Intensity=" + prop.YValues[0], this.scanChart,
                                             pos.X, pos.Y - 15);
+                            }                            
                         }
                     }
                 }
@@ -541,7 +531,7 @@ namespace CCS_DesktopApp
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             // Click on the link below to continue learning how to build a desktop app using WinForms!
-            System.Diagnostics.Process.Start("http://aka.ms/dotnet-get-started-desktop");
+            System.Diagnostics.Process.Start("https://github.com/aungmyin23/Final-Year-Project");
 
         }
 
@@ -680,7 +670,18 @@ namespace CCS_DesktopApp
             {
                 analysisForm.get_Path(databasePath.ToString(), dataValues, ramanValue);
                 analysisForm.ShowDialog();
-                //MessageBox.Show(databasePath.ToString());
+                analysisResults = analysisForm.get_Results();
+                //for (int i = 0; i<analysisResults.Length; i++)
+                //{
+                //    MessageBox.Show(analysisResults[i].ToString());
+                //}
+                result_1.Text = analysisResults[0].ToString("n2");
+                result_2.Text = analysisResults[1].ToString("n2");
+                result_3.Text = analysisResults[2].ToString("n2");
+                result_4.Text = analysisResults[3].ToString("n2");
+                result_5.Text = analysisResults[4].ToString("n2");
+
+
             }
 
             /*using (SaveFileform saveFileform = new SaveFileform())
@@ -771,7 +772,7 @@ namespace CCS_DesktopApp
                 string textfile = System.IO.Path.Combine(folderPath, newfileTxt);
                 string csvfile = System.IO.Path.Combine(folderPath, newfileCsv);
                 string pngfile = System.IO.Path.Combine(folderPath, newfilePng);
-                MessageBox.Show(textfile);
+               //MessageBox.Show(textfile);
 
                 if (File.Exists(newfileTxt) || File.Exists(newfileCsv) || File.Exists(newfilePng)){
                     MessageBox.Show("File exists! Please check again your name and test number.", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
