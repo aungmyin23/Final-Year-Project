@@ -19,3 +19,5 @@ C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\Debug\CCS Deskt
 C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\Debug\CCS_DesktopApp.DisplayRangeform.resources
 C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\Debug\CCS_DesktopApp.RangeSettingform.resources
 C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\Debug\CCS_DesktopApp.AnalysisForm.resources
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\Debug\Thorlabs.ccs.interop64.dll
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\Debug\Thorlabs.ccs.interop64.xml

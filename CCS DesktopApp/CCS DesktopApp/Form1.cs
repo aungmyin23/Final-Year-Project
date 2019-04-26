@@ -25,6 +25,7 @@ namespace CCS_DesktopApp
         public bool rangeXFlag = false;
         public bool rangeYFlag = false;
         public bool rangeFlag = false;
+        public double excitation_wavelength = 532.00;
         double[] data = new double[3648];
         double[] wavelengthData = new double[3648];
         double[] ramanValue = new double[3648];
@@ -196,7 +197,7 @@ namespace CCS_DesktopApp
             for (int i = 0; i < data.Length; i++)
             {
                 {
-                    ramanValue[i] = (1.00/ 532.00) - (1.00/ wavelengthData[i]);
+                    ramanValue[i] = (1.00/ excitation_wavelength) - (1.00/ wavelengthData[i]); //Raman values
                     string writeString = wavelengthData[i] + ";" + data[i].ToString() + ";" + ramanValue[i].ToString();
                     sw.WriteLine(writeString);
                     sw.Write("\t");
@@ -369,7 +370,7 @@ namespace CCS_DesktopApp
                 for (int i = 0; i < data.Length; i++)
                 {
                     {
-                        ramanValue[i] = (1.00 / 532.00) - (1.00 / wavelengthData[i]);
+                        ramanValue[i] = (1.00 / excitation_wavelength) - (1.00 / wavelengthData[i]);   //Raman values
                         string writeString = wavelengthData[i] + ";" + data[i].ToString() + ";" + ramanValue[i].ToString();
                         sw.WriteLine(writeString);
                         sw.Write("\t");
@@ -474,7 +475,7 @@ namespace CCS_DesktopApp
                         {
                             data[i] = Double.Parse(splitStr[1], styles);
                             wavelengthData[i] = Double.Parse(splitStr[0], styles);
-                            ramanValue[i] = (1.00 / 532.00) - (1.00 / wavelengthData[i]);
+                            ramanValue[i] = (1.00 / excitation_wavelength) - (1.00 / wavelengthData[i]); //Raman values
                             dataValues.Rows.Add(wavelengthData[i], data[i], ramanValue[i]);
                         }
                         i++;
@@ -586,7 +587,7 @@ namespace CCS_DesktopApp
 
             for ( i = startNum; i < endNum; i++)
             {
-                ramanValue[i] = (1.00 / 532.00) - (1.00 / wavelengthData[i]);
+                ramanValue[i] = (1.00 / 532.00) - (1.00 / wavelengthData[i]); //Raman value
                 dt.Rows.Add(ramanValue[i], data[i]);
             }
             rangeFlag = true;
@@ -661,6 +662,22 @@ namespace CCS_DesktopApp
                 scanChart.ChartAreas[0].AxisY.Maximum = double.NaN;
                 //MessageBox.Show("Reset");
                 //scanChart.ChartAreas[0].RecalculateAxesScale();
+            }
+        }
+
+        private void button_excitation_Click(object sender, EventArgs e)
+        {
+            //double excitation_wavelength = 0.00;
+            if ((double)exciatation_numerialUpDown.Value == 0.0000)
+            {
+                excitation_wavelength = 532.00;
+                statusText.Text = "Excitation wavelenght is " + excitation_wavelength;
+                return;
+            }else
+            {
+                excitation_wavelength = (double)exciatation_numerialUpDown.Value;
+                statusText.Text = "Excitation wavelenght is " + excitation_wavelength;
+                return;
             }
         }
 
@@ -755,7 +772,8 @@ namespace CCS_DesktopApp
                     // Determine whether the directory exists.
                     if (Directory.Exists(folderPath))
                     {
-                        Console.WriteLine("That path ia already exists.");
+                        MessageBox.Show("File exists! Please check again your name and test number.", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
                     }
                     // Try to create the directory.
                     System.IO.Directory.CreateDirectory(folderPath);
@@ -765,10 +783,13 @@ namespace CCS_DesktopApp
                     Console.WriteLine("The process failed: {0}", f.ToString());
                 }
                 finally { }
-                                            
-                string newfileTxt = newFolder + "_" + DateTime.Now.ToString("yyyy_MM_dd_THHmm") + ".txt";
+
+                /*string newfileTxt = newFolder + "_" + DateTime.Now.ToString("yyyy_MM_dd_THHmm") + ".txt";
                 string newfileCsv = newFolder + "_" + DateTime.Now.ToString("yyyy_MM_dd_THHmm") + ".csv";
-                string newfilePng = newFolder + "_" + DateTime.Now.ToString("yyyy_MM_dd_THHmm") + ".png";
+                string newfilePng = newFolder + "_" + DateTime.Now.ToString("yyyy_MM_dd_THHmm") + ".png";*/
+                string newfileTxt = newFolder + ".txt";
+                string newfileCsv = newFolder + ".csv";
+                string newfilePng = newFolder + ".png";
                 string textfile = System.IO.Path.Combine(folderPath, newfileTxt);
                 string csvfile = System.IO.Path.Combine(folderPath, newfileCsv);
                 string pngfile = System.IO.Path.Combine(folderPath, newfilePng);

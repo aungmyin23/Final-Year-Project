@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CCS DesktopApp.exe" size="418224">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CCS DesktopApp.exe" size="419248">
       <assemblyIdentity name="CCS DesktopApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>7Tobp1aoKFEKJskE+2jLMZcF84rW6CWp49vRAydKGhg=</dsig:DigestValue>
+        <dsig:DigestValue>N1qJ75wRJv1MzZDHRNjSEoIQ15It9xVAYQPvjyx/nC4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -66,134 +66,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Thorlabs.TSI.ColorInterfaces.dll" size="7168">
-      <assemblyIdentity name="Thorlabs.TSI.ColorInterfaces" version="1.4.0.0" language="neutral" processorArchitecture="amd64" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Thorlabs.ccs.interop64.dll" size="9216">
+      <assemblyIdentity name="Thorlabs.ccs.interop64" version="2.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>WEVWTNJLQuhQqEnKD2TlvjUNOnH9tUfN93asLD5ByY4=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Thorlabs.TSI.ColorProcessor.dll" size="16384">
-      <assemblyIdentity name="Thorlabs.TSI.ColorProcessor" version="1.4.0.0" language="neutral" processorArchitecture="amd64" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>5U2pTsFQ5+sIEJt9uCGHsP59472mV0rVVr+peY9bGtM=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Thorlabs.TSI.Core.dll" size="99840">
-      <assemblyIdentity name="Thorlabs.TSI.Core" version="1.4.0.0" language="neutral" processorArchitecture="amd64" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>tki3VFYLhciUe4olKN+oT3zYRKjjYTe6LhVaRl3NyR8=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Thorlabs.TSI.CoreInterfaces.dll" size="20480">
-      <assemblyIdentity name="Thorlabs.TSI.CoreInterfaces" version="1.4.0.0" language="neutral" processorArchitecture="amd64" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>kCKGIQ06wJViIbMZnZCCCa2xX2+4uImgfJrpU7qrI9g=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Thorlabs.TSI.Demosaicker.dll" size="6144">
-      <assemblyIdentity name="Thorlabs.TSI.Demosaicker" version="1.4.0.0" language="neutral" processorArchitecture="amd64" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>s+jzJHeiPiCdCKRHOZwBhAW0MqEe/EttQB34LSA5QM4=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Thorlabs.TSI.ImageData.dll" size="7168">
-      <assemblyIdentity name="Thorlabs.TSI.ImageData" version="1.4.0.0" language="neutral" processorArchitecture="amd64" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>GKQmX6/N8YDLFDolUkqnnL7HElo5y/WAyAH/phepsCg=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Thorlabs.TSI.ImageDataInterfaces.dll" size="4608">
-      <assemblyIdentity name="Thorlabs.TSI.ImageDataInterfaces" version="1.4.0.0" language="neutral" processorArchitecture="amd64" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>IyWzyv0a45cBycYHI/tgrhqEfk8eldEFef0Jr1P2Mq8=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Thorlabs.TSI.TLCamera.dll" size="107008">
-      <assemblyIdentity name="Thorlabs.TSI.TLCamera" version="1.4.0.0" language="neutral" processorArchitecture="amd64" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>OoHSNiGgQLhImLy75f75y4wrlgu9x/N9ndAg8d3JW4A=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Thorlabs.TSI.TLCameraInterfaces.dll" size="13824">
-      <assemblyIdentity name="Thorlabs.TSI.TLCameraInterfaces" version="1.4.0.0" language="neutral" processorArchitecture="amd64" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>reJE1gd40Pa/ZiBDWKT0jZnN1JlV05X3vHefW1H7gbA=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="thorlabs_tsi_camera_sdk1_cli.dll" size="83968">
-      <assemblyIdentity name="thorlabs_tsi_camera_sdk1_cli" version="1.0.6886.29963" language="neutral" processorArchitecture="amd64" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>E3ktDWd1uHilMiXxDPNMVxc7oQwsR8NYO3oS/HUQG0Y=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="thorlabs_tsi_core_cli.dll" size="51200">
-      <assemblyIdentity name="thorlabs_tsi_core_cli" version="1.0.6886.29963" language="neutral" processorArchitecture="amd64" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>5L1PJOX++A4fQKgRtfxGLgaYLikFbPNyI7dvas073FI=</dsig:DigestValue>
+        <dsig:DigestValue>YWbFRCDDkglb84EqtW10iJp9ClMwAxLsfW5GligZ2jk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

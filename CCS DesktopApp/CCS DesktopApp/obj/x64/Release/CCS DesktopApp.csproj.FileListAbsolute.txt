@@ -1,0 +1,21 @@
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\x64\Release\CCS DesktopApp.exe.config
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\x64\Release\CCS DesktopApp.exe.manifest
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\x64\Release\CCS DesktopApp.application
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\x64\Release\CCS DesktopApp.exe
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\x64\Release\Thorlabs.ccs.interop.dll
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\x64\Release\Thorlabs.ccs.interop.xml
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\x64\Release\CCS DesktopApp.csprojAssemblyReference.cache
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\x64\Release\CCS_DesktopApp.AnalysisForm.resources
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\x64\Release\CCS_DesktopApp.DisplayRangeform.resources
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\x64\Release\CCS_DesktopApp.Form1.resources
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\x64\Release\CCS_DesktopApp.Properties.Resources.resources
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\x64\Release\CCS_DesktopApp.RangeSettingform.resources
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\x64\Release\CCS_DesktopApp.SaveFileform.resources
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\x64\Release\CCS DesktopApp.csproj.GenerateResource.cache
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\x64\Release\CCS DesktopApp.csproj.CoreCompileInputs.cache
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\x64\Release\CCS DesktopApp.exe.manifest
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\x64\Release\CCS DesktopApp.application
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\x64\Release\CCS DesktopApp.csproj.CopyComplete
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\obj\x64\Release\CCS DesktopApp.exe
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\x64\Release\Thorlabs.ccs.interop64.dll
+C:\Users\AungMyin\source\repos\CCS DesktopApp\CCS DesktopApp\bin\x64\Release\Thorlabs.ccs.interop64.xml

@@ -31,6 +31,7 @@ namespace CCS_DesktopApp
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.button_connect = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -53,6 +54,9 @@ namespace CCS_DesktopApp
             this.button_stop = new System.Windows.Forms.Button();
             this.button_scan = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.button_excitation = new System.Windows.Forms.Button();
+            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.exciatation_numerialUpDown = new System.Windows.Forms.NumericUpDown();
             this.analysis_button = new System.Windows.Forms.Button();
             this.button_wavelenght = new System.Windows.Forms.Button();
             this.button_raman = new System.Windows.Forms.Button();
@@ -80,6 +84,8 @@ namespace CCS_DesktopApp
             ((System.ComponentModel.ISupportInitialize)(this.numerialupdown_integrationTime)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.exciatation_numerialUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.scanChart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.groupBox5.SuspendLayout();
@@ -303,6 +309,9 @@ namespace CCS_DesktopApp
             // groupBox4
             // 
             this.groupBox4.AutoSize = true;
+            this.groupBox4.Controls.Add(this.button_excitation);
+            this.groupBox4.Controls.Add(this.numericUpDown2);
+            this.groupBox4.Controls.Add(this.exciatation_numerialUpDown);
             this.groupBox4.Controls.Add(this.analysis_button);
             this.groupBox4.Controls.Add(this.button_wavelenght);
             this.groupBox4.Controls.Add(this.button_raman);
@@ -313,6 +322,36 @@ namespace CCS_DesktopApp
             this.groupBox4.TabIndex = 16;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Display";
+            // 
+            // button_excitation
+            // 
+            this.button_excitation.Location = new System.Drawing.Point(157, 95);
+            this.button_excitation.Name = "button_excitation";
+            this.button_excitation.Size = new System.Drawing.Size(131, 28);
+            this.button_excitation.TabIndex = 10;
+            this.button_excitation.Text = "Exciatation";
+            this.button_excitation.UseVisualStyleBackColor = true;
+            this.button_excitation.Click += new System.EventHandler(this.button_excitation_Click);
+            // 
+            // numericUpDown2
+            // 
+            this.numericUpDown2.Location = new System.Drawing.Point(227, 74);
+            this.numericUpDown2.Name = "numericUpDown2";
+            this.numericUpDown2.Size = new System.Drawing.Size(8, 22);
+            this.numericUpDown2.TabIndex = 9;
+            // 
+            // exciatation_numerialUpDown
+            // 
+            this.exciatation_numerialUpDown.DecimalPlaces = 4;
+            this.exciatation_numerialUpDown.Location = new System.Drawing.Point(156, 66);
+            this.exciatation_numerialUpDown.Maximum = new decimal(new int[] {
+            1200,
+            0,
+            0,
+            0});
+            this.exciatation_numerialUpDown.Name = "exciatation_numerialUpDown";
+            this.exciatation_numerialUpDown.Size = new System.Drawing.Size(132, 22);
+            this.exciatation_numerialUpDown.TabIndex = 8;
             // 
             // analysis_button
             // 
@@ -401,11 +440,11 @@ namespace CCS_DesktopApp
             // logo
             // 
             this.logo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.logo.Image = global::CCS_DesktopApp.Properties.Resources.nus_logo1;
-            this.logo.Location = new System.Drawing.Point(1393, 31);
+            this.logo.Image = ((System.Drawing.Image)(resources.GetObject("logo.Image")));
+            this.logo.Location = new System.Drawing.Point(1439, 30);
             this.logo.Margin = new System.Windows.Forms.Padding(2);
             this.logo.Name = "logo";
-            this.logo.Size = new System.Drawing.Size(120, 72);
+            this.logo.Size = new System.Drawing.Size(74, 79);
             this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.logo.TabIndex = 15;
             this.logo.TabStop = false;
@@ -562,6 +601,8 @@ namespace CCS_DesktopApp
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.exciatation_numerialUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.scanChart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
             this.groupBox5.ResumeLayout(false);
@@ -616,6 +657,9 @@ namespace CCS_DesktopApp
         private System.Windows.Forms.TextBox result_3;
         private System.Windows.Forms.TextBox result_1;
         private System.Windows.Forms.TextBox result_2;
+        private System.Windows.Forms.Button button_excitation;
+        private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private System.Windows.Forms.NumericUpDown exciatation_numerialUpDown;
     }
 }
 
